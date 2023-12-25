@@ -1,0 +1,47 @@
+@font-face {
+    font-family: CuteFont;
+    src: url("assets/fonts/Cute_Font.ttf");
+}
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    background-image: url("assets/img/background.gif");
+    filter: blur(2px);
+    -webkit-filter: blur(4px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-text {
+    font-family: CuteFont;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+ }
+
+ 
+ 
