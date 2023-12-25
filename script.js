@@ -38,7 +38,7 @@ document.body.addEventListener('click', function() {
     }
     var newMessage = document.createElement('h1');
     newMessage.id = 'animated-text';
-    newMessage.innerHTML = 'thank you for being the best person ever to be kind towards me..'; 
+    newMessage.innerHTML = 'thank you for being the best person ever to be kind towards me.. and MERRY CHRISTMAS!'; 
     bgTextDiv.appendChild(newMessage);
    
     setTimeout(function() {
